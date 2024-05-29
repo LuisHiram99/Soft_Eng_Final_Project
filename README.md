@@ -3,7 +3,7 @@ Este proyecto es una aplicación web desarrollada en Django que permite a los us
 ![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/204b7292-cf3d-4245-8285-4c96a41f3797)
 
 ## Objetivo del proyecto:
-El objetivo principal del proyecto es utilizar herramientas de desarrollo web y bases de datos para generar un sistema capaz de registrar, almacenar usuarios y mostrar tablas dinamicas con informacion extraida de otra base de datos. En la foto adjunta podemos ver la interface de login y logout.
+El objetivo principal del proyecto es utilizar herramientas de desarrollo web y bases de datos para generar un sistema capaz de registrar, almacenar usuarios y mostrar tablas dinamicas con informacion extraida de otra base de datos. En la foto adjunta podemos ver la interface de singin y singup.
 ![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/c2bad4bf-a89b-4b2c-9211-ac960caca986)
 ![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/72887c29-5cd0-407e-b36c-1334b4bebae2)
 
