@@ -1,5 +1,7 @@
 # Sistema-de-Captura
 Este repositorio contiene los archivos necesarios para crear un sistema el cual permite la captura de los requisitos que tienen las personas que solicitan un apoyo alimentario.  El sistema trabaja con 2 niveles de permisos, están los permisos tipo usuario, y los permisos tipo administrador.
+![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/204b7292-cf3d-4245-8285-4c96a41f3797)
+
 ## Objetivo del proyecto:
 El objetivo principal del proyecto es otorgar un apoyo al Banco de Alimentos, eficientando la captura de información a los trabajadores sociales, quienes tienen como tarea principal realizar evaluaciones a las personas que solicitan un apoyo alimentario. A estas personas se les realizan una serie de preguntas, cuyas respuestas permiten llenar un formulario.
 El sistema buscara que por medio de un usuario/administrador, se puedan ingresar los datos del formulario a una base de datos, y posteriormente facilitar el manejo de la información.
