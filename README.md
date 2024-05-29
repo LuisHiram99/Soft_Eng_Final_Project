@@ -1,10 +1,12 @@
 # Sistema-de-Captura
-Este repositorio contiene los archivos necesarios para crear un sistema el cual permite la captura de los requisitos que tienen las personas que solicitan un apoyo alimentario.  El sistema trabaja con 2 niveles de permisos, están los permisos tipo usuario, y los permisos tipo administrador.
+Este proyecto es una aplicación web desarrollada en Django que permite a los usuarios registrarse e iniciar sesión para acceder a visualizaciones gráficas de datos sobre accidentes de tránsito ocurridos en Hermosillo entre los años 2015 y 2021. La aplicación utiliza una base de datos MySQL para almacenar la información de los accidentes y presenta los datos mediante gráficos.
 ![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/204b7292-cf3d-4245-8285-4c96a41f3797)
 
 ## Objetivo del proyecto:
-El objetivo principal del proyecto es otorgar un apoyo al Banco de Alimentos, eficientando la captura de información a los trabajadores sociales, quienes tienen como tarea principal realizar evaluaciones a las personas que solicitan un apoyo alimentario. A estas personas se les realizan una serie de preguntas, cuyas respuestas permiten llenar un formulario.
-El sistema buscara que por medio de un usuario/administrador, se puedan ingresar los datos del formulario a una base de datos, y posteriormente facilitar el manejo de la información.
+El objetivo principal del proyecto es utilizar herramientas de desarrollo web y bases de datos para generar un sistema capaz de registrar, almacenar usuarios y mostrar tablas dinamicas con informacion extraida de otra base de datos. En la foto adjunta podemos ver la interface de login y logout.
+![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/c2bad4bf-a89b-4b2c-9211-ac960caca986)
+![image](https://github.com/LuisHiram99/Soft_Eng_Final_Project/assets/122404524/72887c29-5cd0-407e-b36c-1334b4bebae2)
+
 ## Características del sistema:
 - Crear un sistema de inicio/salida de sesión (login/logout).
 - Crear múltiples herramientas para que un Administrador pueda modificar/consultar la base de datos que corresponde a los usuarios creados.
