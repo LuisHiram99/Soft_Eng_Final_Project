@@ -10,7 +10,7 @@ El objetivo principal del proyecto es utilizar herramientas de desarrollo web y 
 ## Características del sistema:
 - Crear un sistema de inicio/salida de sesión (login/logout).
 - Crear múltiples herramientas para que un Administrador pueda modificar/consultar la base de datos que corresponde a los usuarios creados.
-- Crear múltiples herramientas para que tanto usuarios como administradores puedan consultar/modificar la base de datos que corresponde a alimentos almacenados en el Banco de Alimentos.
+- Crear múltiples herramientas para que tanto usuarios como administradores puedan consultar/modificar la base de datos.
 ## Herramientas tecnológicas que se utilizarán en el proyecto:
 - Se hará uso de Django como framework de trabajo, debido a su gran versatilidad y gran apoyo de librerias para desarrollo web.
 - Para la parte visual se utilizará HTML y CSS.
