@@ -1,0 +1,56 @@
+{% extends 'plantilla.html' %}
+
+{% block content %}
+    <p>Se entró al sistema, ¡Hola usuario!</p>
+    <h1>Gráfico de Accidentes de Tránsito en Hermosillo 2012-2021</h1>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div style="width: 800px; height: 400px;">
+    <canvas id="myChart"></canvas>
+</div>
+
+<script>
+    const anios = {{ anios|safe }};
+    const total_muertos = {{ total_muertos|safe }};
+    const total_heridos = {{ total_heridos|safe }};
+    
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: anios,
+            datasets: [{
+                label: 'Total de Muertos',
+                data: total_muertos,
+                backgroundColor: 'rgba(255, 99, 132, 0.5)', // Color de fondo de las barras para muertos
+                borderColor: 'rgba(255, 99, 132, 1)', // Color del borde de las barras para muertos
+                borderWidth: 1
+            }, {
+                label: 'Total de Heridos',
+                data: total_heridos,
+                backgroundColor: 'rgba(54, 162, 235, 0.5)', // Color de fondo de las barras para heridos
+                borderColor: 'rgba(54, 162, 235, 1)', // Color del borde de las barras para heridos
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            maintainAspectRatio: false, // Permitir al gráfico cambiar de tamaño
+            responsive: true, // Permitir al gráfico adaptarse al contenedor
+            plugins: {
+                legend: {
+                    position: 'top' // Posición de la leyenda
+                }
+            }
+        }
+    });
+</script>
+    
+{% endblock %}
+            
+            
